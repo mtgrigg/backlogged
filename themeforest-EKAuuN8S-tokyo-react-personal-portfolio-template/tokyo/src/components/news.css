@@ -1,0 +1,59 @@
+.linkedinCSS{
+    text-decoration: none;
+   margin-top: 10px;
+   color: whitesmoke;
+
+}
+
+.linkedinCSS:hover{
+    text-decoration: none;
+   margin-top: 10px;
+   color: rgb(156, 79, 16);
+cursor: pointer;
+}
+
+.gitHubCSS{
+    text-decoration: none;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.gitHubCSS:hover{
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(156, 79, 16);
+    cursor: pointer;
+}
+
+.reachOut{
+    color: rgb(156, 79, 16);
+
+}
+
+.left{
+    color: rgb(156, 79, 16);
+}
+
+
+.phoneContactPage{
+margin-top: 10px;
+color: whitesmoke;
+text-decoration: none;
+}
+
+.phoneContactPage:hover{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(156, 79, 16);
+    }
+
+
+.emailContactPage{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.emailContactPage:hover{
+    text-decoration: none;
+    color: rgb(156, 79, 16);
+}

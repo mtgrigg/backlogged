@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Social from "./Social";
+import './news.css'
+
 
 
 
@@ -63,8 +65,8 @@ const News = () => {
       <div className="tokyo_tm_title">
         <div className="title_flex">
           <div className="left">
-            <span>Contact</span>
-            <h3>Reach out!</h3>
+            {/* <span>Contact</span> */}
+            <h3 className='reachOut'>Reach out!</h3>
           </div>
         </div>
       </div>
@@ -81,18 +83,18 @@ const News = () => {
         </div>
       </div>
       {/* MENU WRAP */}
-      <div>
-        <h3>Email: maxtgrigg@gmail.com</h3>
+      <div className='emailContactPage'>
+        <h3 className='emailContactPage'><a href="mailto:maxtgrigg@gmail.com" className='emailContactPage'>Email: maxtgrigg@gmail.com</a></h3>
       </div>
-      <div>
-        <h3>Phone: 310-993-9031</h3>
+      <div className='phoneContactPage'>
+        <h3 className='phoneContactPage'> <a href="tel:3109939031" className='phoneContactPage'> Phone: 310-993-9031</a></h3>
       </div>
 
-      <div>
-        <h3><a href="https://www.linkedin.com/in/maxim-grigg/">Linkedin</a></h3>
+      <div className='linkedinCSS'>
+        <h3 className='linkedinCSS'><a href="https://www.linkedin.com/in/maxim-grigg/" className='linkedinCSS'>Linkedin</a></h3>
       </div>
-      <div>
-        <h3><a href="https://github.com/mtgrigg">GitHub</a></h3>
+      <div className='gitHubCSS'>
+        <h3 className='gitHubCSS'><a href="https://github.com/mtgrigg" className='gitHubCSS'>GitHub</a></h3>
       </div>
 
       </div>
