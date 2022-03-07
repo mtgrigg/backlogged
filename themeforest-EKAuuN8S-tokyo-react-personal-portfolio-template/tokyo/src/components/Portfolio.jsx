@@ -58,15 +58,15 @@ const Portfolio = () => {
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
+                          <a href="https://philosophyq.herokuapp.com/"><img
                             src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
+                            alt=""
                             onClick={() => setOpen2(true)}
-                          />
+                          /></a>
                         </div>
                         <div className="mobile_title">
                           <h3>PhilosophyHQ</h3>
-                          <span>Vimeo</span>
+                          {/* <span>Photo shoot</span> */}
                         </div>
                       </div>
                     </li>
@@ -78,41 +78,40 @@ const Portfolio = () => {
                     >
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
+                         <a href="https://maximsolo2.herokuapp.com/"> <img
                             src="assets/img/portfolio/2.jpg"
-                            alt="Youtube"
+                            alt=""
                             onClick={() => setOpen(true)}
-                          />
+                          /></a>
                         </div>
                         <div className="mobile_title">
                           <h3>Seneca's Villa</h3>
-                          <span>Youtube</span>
+                          {/* <span>Photo shoot</span> */}
                         </div>
                       </div>
                     </li>
-                    {/* END YOUTUBE */}
-                    <SRLWrapper>
-                      <li
+
+                    <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="200"
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
-                              <img
+                            {/* <a href="assets/img/portfolio/4.jpg"> */}
+                             <a href="https://cheeseandcheckers.herokuapp.com/"> <img
                                 src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
-                              />
-                            </a>
+                                alt=""
+                              /></a>
+                            {/* </a> */}
                           </div>
                           <div className="mobile_title">
                             <h3>Cheese & Checkers</h3>
-                            <span>Photo shoot</span>
+                            {/* <span>Photo shoot</span> */}
                           </div>
                         </div>
                       </li>
-                      {/* END SHOT */}
+
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -120,19 +119,24 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
-                              <img
+                            {/* <a href="assets/img/portfolio/3.jpg"> */}
+                             <a href="https://potionable.herokuapp.com/"> <img
                                 src="assets/img/portfolio/3.jpg"
                                 alt="Besh Award"
-                              />
-                            </a>
+                              /></a>
+                            {/* </a> */}
                           </div>
                           <div className="mobile_title">
-                            <h3>Gloria Genkins</h3>
-                            <span>Photo shoot</span>
+                            <h3>Potionable</h3>
+                            {/* <span>Photo shoot</span> */}
                           </div>
                         </div>
                       </li>
+                    {/* END YOUTUBE */}
+                    <SRLWrapper>
+
+                      {/* END SHOT */}
+
                       {/* END SHOT */}
                     </SRLWrapper>
                     {/* <li
@@ -235,13 +239,13 @@ const Portfolio = () => {
                             <a href="assets/img/portfolio/4.jpg">
                               <img
                                 src="assets/img/portfolio/4.jpg"
-                                alt="Childhood"
+                                alt=""
                               />
                             </a>
                           </div>
                           <div className="mobile_title">
                             <h3>Derek Smith</h3>
-                            <span>Photo shoot</span>
+                            {/* <span>Photo shoot</span> */}
                           </div>
                         </div>
                       </li>
@@ -261,7 +265,7 @@ const Portfolio = () => {
                             </a>
                             <div className="mobile_title">
                               <h3>Gloria Genkins</h3>
-                              <span>Photo shoot</span>
+                              {/* <span>Photo shoot</span> */}
                             </div>
                           </div>
                         </div>
@@ -323,26 +327,36 @@ const Portfolio = () => {
       </SimpleReactLightbox>
 
       {/* all modal video and popup goes here */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="1gyTUHP6ne8"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       {/* End Youtube Modal video */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="vimeo"
         autoplay
         isOpen={isOpen2}
         videoId="100171151"
         onClose={() => setOpen2(false)}
-      />
+      /> */}
       {/* End Vimeo Modal Video */}
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
+
       <Modal
-        isOpen={isOpen3}
+        isOpen={isOpen}
+        onRequestClose={toggleModalThree}
+        contentLabel="My dialog"
+        // className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        </Modal>
+      <Modal
+        isOpen={isOpen}
         onRequestClose={toggleModalThree}
         contentLabel="My dialog"
         className="mymodal"
