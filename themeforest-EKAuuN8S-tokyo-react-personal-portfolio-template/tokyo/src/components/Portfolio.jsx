@@ -29,8 +29,8 @@ const Portfolio = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Portfolio</span>
-                <h3>Minimal Portfolio</h3>
+                {/* <span>Portfolio</span> */}
+                <h3>Portfolio</h3>
               </div>
             </div>
           </div>
@@ -39,15 +39,15 @@ const Portfolio = () => {
           <div className="portfolio_filter">
             <Tabs>
               <TabList>
-                <Tab>All</Tab>
+                {/* <Tab>All</Tab> */}
                 {/* All */}
-                <Tab>Vimeo</Tab>
+                {/* <Tab>Vimeo</Tab> */}
                 {/* For Vimeo */}
-                <Tab>Youtube</Tab>
+                {/* <Tab>Youtube</Tab> */}
                 {/* For Youtube */}
-                <Tab>Photography</Tab>
+                {/* <Tab>Photography</Tab> */}
                 {/* For Images */}
-                <Tab>Details</Tab>
+                {/* <Tab>Details</Tab> */}
                 {/* For Popup Details */}
               </TabList>
               {/* END TABLIST */}
@@ -65,7 +65,7 @@ const Portfolio = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Teresa Butler</h3>
+                          <h3>PhilosophyHQ</h3>
                           <span>Vimeo</span>
                         </div>
                       </div>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                           />
                         </div>
                         <div className="mobile_title">
-                          <h3>Ashely Flores</h3>
+                          <h3>Seneca's Villa</h3>
                           <span>Youtube</span>
                         </div>
                       </div>
@@ -107,7 +107,7 @@ const Portfolio = () => {
                             </a>
                           </div>
                           <div className="mobile_title">
-                            <h3>Derek Smith</h3>
+                            <h3>Cheese & Checkers</h3>
                             <span>Photo shoot</span>
                           </div>
                         </div>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                       </li>
                       {/* END SHOT */}
                     </SRLWrapper>
-                    <li
+                    {/* <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="100"
@@ -153,9 +153,9 @@ const Portfolio = () => {
                           <span> Details</span>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
                     {/* END DETAILS */}
-                    <li
+                    {/* <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
                       data-aos-delay="200"
@@ -173,7 +173,7 @@ const Portfolio = () => {
                           <span> Details</span>
                         </div>
                       </div>
-                    </li>
+                    </li> */}
                     {/* END DETAILS */}
                   </ul>
                   {/* END PORTFOLIO LIST */}
