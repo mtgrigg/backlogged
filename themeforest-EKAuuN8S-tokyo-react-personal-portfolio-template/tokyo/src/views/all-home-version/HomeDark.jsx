@@ -49,14 +49,14 @@ const HomeDark = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"
@@ -71,13 +71,13 @@ const HomeDark = () => {
 
               <div className="copyright">
                 <p>
-                  &copy; {new Date().getFullYear()} Tokyo <br /> Created by
+                  &copy; {new Date().getFullYear()}  <br /> Created by
                   <a
                     href="https://themeforest.net/user/ib-themes"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Ib-Themes
+                   Maxim Grigg
                   </a>
                 </p>
               </div>

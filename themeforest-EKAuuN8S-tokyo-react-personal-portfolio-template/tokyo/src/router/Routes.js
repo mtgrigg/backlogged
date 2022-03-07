@@ -12,7 +12,7 @@ const Routes = () => {
     <>
       <Router>
         <Switch>
-          <Route exact path="/" component={Preview} />
+          <Route exact path="/" component={HomeDark} />
           <Route path="/home-light" component={HomeLight} />
           <Route path="/home-dark" component={HomeDark} />
           <Route path="/rtl-home-light" component={RtlHomeLight} />
