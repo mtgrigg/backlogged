@@ -29,7 +29,7 @@ const Preview = () => {
       <div className="tokyo_tm_all_wrap">
         <div className="tokyo_tm_intro">
           <div className="short_info">
-            <img src="assets/img/logo/dark.png" alt="logo" />
+            <img src="assets/img/logo/logo.png" alt="logo" />
             <h3>Personal Portfolio React + RTL Template</h3>
           </div>
           {/* END SHORT INFO */}
@@ -61,7 +61,7 @@ const Preview = () => {
               <div className="right">
                 <Link to="/home-dark" target="_blank">
                   <div className="desc">
-                    <img src="assets/img/intro/dark.png" alt="" />
+                    <img src="assets/img/intro/logo.png" alt="" />
                     <h3 className="title"> Dark Demo</h3>
                   </div>
                 </Link>
